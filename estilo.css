@@ -358,6 +358,16 @@ html{
     0%{width: 0%;}
     100%{width: 94%;}
 }
+
+.skills .skill .progreso{
+    background-color: #1CB698;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+    width: 0;
+    transition: width 2s;
+}
 /* SECCION CURRICULUM */
 .curriculum{
     background-color: #1e2326;
